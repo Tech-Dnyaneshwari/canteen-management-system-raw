@@ -1,0 +1,22 @@
+{
+  "name": "smart-canteen-management-system",
+  "version": "1.0.0",
+  "description": "Smart Canteen Management System - College CEP Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "canteen",
+    "food-ordering",
+    "mess-management",
+    "college-project"
+  ],
+  "author": "Smart Canteen Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

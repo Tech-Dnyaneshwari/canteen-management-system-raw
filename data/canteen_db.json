@@ -1,0 +1,400 @@
+{
+  "menu": [
+    {
+      "id": "menu-1",
+      "name": "Masala Dosa",
+      "category": "Breakfast",
+      "price": 50,
+      "description": "Crispy golden crepe served with spiced potato masala, coconut chutney, and piping hot sambar.",
+      "image": "dosa",
+      "stock": 24,
+      "isAvailable": true,
+      "prepTime": "10 mins",
+      "badge": "Bestseller"
+    },
+    {
+      "id": "menu-2",
+      "name": "Vada Pav (2 Pcs)",
+      "category": "Snacks",
+      "price": 30,
+      "description": "Classic spiced potato fritters encased in soft pav with garlic chutney and fried green chillies.",
+      "image": "vadapav",
+      "stock": 40,
+      "isAvailable": true,
+      "prepTime": "5 mins",
+      "badge": "Popular"
+    },
+    {
+      "id": "menu-3",
+      "name": "Samosa Pav (2 Pcs)",
+      "category": "Snacks",
+      "price": 35,
+      "description": "Crisp flaky samosas stuffed with seasoned potatoes and peas, served in buttered pav.",
+      "image": "samosa",
+      "stock": 30,
+      "isAvailable": true,
+      "prepTime": "5 mins",
+      "badge": "Hot"
+    },
+    {
+      "id": "menu-4",
+      "name": "Veg Grilled Cheese Sandwich",
+      "category": "Snacks",
+      "price": 60,
+      "description": "Triple-layered toasted bread stuffed with crunchy garden vegetables, mint chutney, and gooey cheese.",
+      "image": "sandwich",
+      "stock": 18,
+      "isAvailable": true,
+      "prepTime": "8 mins",
+      "badge": "Must Try"
+    },
+    {
+      "id": "menu-5",
+      "name": "Paneer Butter Masala Thali",
+      "category": "Meals",
+      "price": 120,
+      "description": "Rich paneer gravy, 3 butter rotis, aromatic jeera rice, dal tadka, salad, and sweet gulab jamun.",
+      "image": "thali",
+      "stock": 15,
+      "isAvailable": true,
+      "prepTime": "12 mins",
+      "badge": "Chef Special"
+    },
+    {
+      "id": "menu-6",
+      "name": "Special Veg Dum Biryani",
+      "category": "Meals",
+      "price": 110,
+      "description": "Fragrant basmati rice layered with marinated vegetables, mint, caramelized onions, and cucumber raita.",
+      "image": "biryani",
+      "stock": 20,
+      "isAvailable": true,
+      "prepTime": "10 mins",
+      "badge": "Bestseller"
+    },
+    {
+      "id": "menu-7",
+      "name": "Chole Bhature (2 Pcs)",
+      "category": "Meals",
+      "price": 85,
+      "description": "Fluffy puffed bhatures served with spicy Amritsari chole, pickled onions, and lemon.",
+      "image": "chole",
+      "stock": 12,
+      "isAvailable": true,
+      "prepTime": "10 mins",
+      "badge": "Popular"
+    },
+    {
+      "id": "menu-8",
+      "name": "Cheese Masala Maggi",
+      "category": "Snacks",
+      "price": 45,
+      "description": "College favorite 2-minute noodles tossed with spicy veggie masala and topped with melted cheese.",
+      "image": "maggi",
+      "stock": 50,
+      "isAvailable": true,
+      "prepTime": "7 mins",
+      "badge": "Student Fav"
+    },
+    {
+      "id": "menu-9",
+      "name": "Thick Cold Coffee with Ice Cream",
+      "category": "Beverages",
+      "price": 50,
+      "description": "Rich blended espresso and creamy chilled milk topped with a scoop of vanilla ice cream and chocolate drizzle.",
+      "image": "coffee",
+      "stock": 34,
+      "isAvailable": true,
+      "prepTime": "5 mins",
+      "badge": "Bestseller"
+    },
+    {
+      "id": "menu-10",
+      "name": "Special Masala Chai",
+      "category": "Beverages",
+      "price": 15,
+      "description": "Freshly brewed full-cream milk tea infused with crushed ginger, cardamom, and aromatic spices.",
+      "image": "tea",
+      "stock": 100,
+      "isAvailable": true,
+      "prepTime": "3 mins",
+      "badge": "Essential"
+    },
+    {
+      "id": "menu-11",
+      "name": "Fresh Sweet Lime Soda",
+      "category": "Beverages",
+      "price": 30,
+      "description": "Refreshing fizzy soda blended with freshly squeezed key lime, rock salt, and mint leaves.",
+      "image": "lime",
+      "stock": 45,
+      "isAvailable": true,
+      "prepTime": "3 mins",
+      "badge": "Refreshing"
+    },
+    {
+      "id": "menu-12",
+      "name": "Hot Gulab Jamun (2 Pcs)",
+      "category": "Desserts",
+      "price": 40,
+      "description": "Soft melt-in-mouth milk solids dumplings soaked in warm rose and cardamom scented sugar syrup.",
+      "image": "dessert",
+      "stock": 25,
+      "isAvailable": true,
+      "prepTime": "2 mins",
+      "badge": "Sweet"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1004",
+      "token": "SC-1004",
+      "studentName": "Yash Rane",
+      "rollNumber": "CS-2024-055",
+      "phone": "9820011223",
+      "pickupSlot": "12:45 PM",
+      "paymentMethod": "Cash at Pickup",
+      "status": "Collected",
+      "createdAt": "2026-10-15T13:43:58.101Z",
+      "totalAmount": 100,
+      "items": [
+        {
+          "id": "menu-1",
+          "name": "Masala Dosa",
+          "price": 50,
+          "quantity": 1,
+          "subtotal": 50
+        },
+        {
+          "id": "menu-9",
+          "name": "Thick Cold Coffee with Ice Cream",
+          "price": 50,
+          "quantity": 1,
+          "subtotal": 50
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Placed",
+          "time": "2026-10-15T13:43:58.101Z"
+        },
+        {
+          "status": "Accepted",
+          "time": "2026-10-15T13:44:08.772Z"
+        },
+        {
+          "status": "Preparing",
+          "time": "2026-10-15T13:44:08.818Z"
+        },
+        {
+          "status": "Ready for Pickup",
+          "time": "2026-10-15T13:44:08.828Z"
+        },
+        {
+          "status": "Collected",
+          "time": "2026-10-15T13:44:08.836Z"
+        }
+      ]
+    },
+    {
+      "id": "ord-1001",
+      "token": "SC-1001",
+      "studentName": "Rohan Sharma",
+      "rollNumber": "CS-2024-042",
+      "phone": "9876543210",
+      "pickupSlot": "12:30 PM",
+      "paymentMethod": "Cash at Pickup",
+      "status": "Preparing",
+      "createdAt": "2026-10-15T18:45:00.000Z",
+      "totalAmount": 100,
+      "items": [
+        {
+          "id": "menu-1",
+          "name": "Masala Dosa",
+          "price": 50,
+          "quantity": 1,
+          "subtotal": 50
+        },
+        {
+          "id": "menu-9",
+          "name": "Thick Cold Coffee with Ice Cream",
+          "price": 50,
+          "quantity": 1,
+          "subtotal": 50
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Placed",
+          "time": "2026-10-15T18:45:00.000Z"
+        },
+        {
+          "status": "Accepted",
+          "time": "2026-10-15T18:47:00.000Z"
+        },
+        {
+          "status": "Preparing",
+          "time": "2026-10-15T18:50:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ord-1002",
+      "token": "SC-1002",
+      "studentName": "Priya Patel",
+      "rollNumber": "IT-2024-019",
+      "phone": "9812345678",
+      "pickupSlot": "12:45 PM",
+      "paymentMethod": "Cash at Pickup",
+      "status": "Ready for Pickup",
+      "createdAt": "2026-10-15T18:30:00.000Z",
+      "totalAmount": 85,
+      "items": [
+        {
+          "id": "menu-3",
+          "name": "Samosa Pav (2 Pcs)",
+          "price": 35,
+          "quantity": 2,
+          "subtotal": 70
+        },
+        {
+          "id": "menu-10",
+          "name": "Special Masala Chai",
+          "price": 15,
+          "quantity": 1,
+          "subtotal": 15
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Placed",
+          "time": "2026-10-15T18:30:00.000Z"
+        },
+        {
+          "status": "Accepted",
+          "time": "2026-10-15T18:32:00.000Z"
+        },
+        {
+          "status": "Preparing",
+          "time": "2026-10-15T18:35:00.000Z"
+        },
+        {
+          "status": "Ready for Pickup",
+          "time": "2026-10-15T18:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ord-1003",
+      "token": "SC-1003",
+      "studentName": "Aditya Verma",
+      "rollNumber": "ME-2024-008",
+      "phone": "9700112233",
+      "pickupSlot": "01:00 PM",
+      "paymentMethod": "Cash at Pickup",
+      "status": "Placed",
+      "createdAt": "2026-10-15T18:55:00.000Z",
+      "totalAmount": 110,
+      "items": [
+        {
+          "id": "menu-6",
+          "name": "Special Veg Dum Biryani",
+          "price": 110,
+          "quantity": 1,
+          "subtotal": 110
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Placed",
+          "time": "2026-10-15T18:55:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ord-1000",
+      "token": "SC-1000",
+      "studentName": "Sneha Rao",
+      "rollNumber": "EC-2024-031",
+      "phone": "9988776655",
+      "pickupSlot": "12:15 PM",
+      "paymentMethod": "Cash at Pickup",
+      "status": "Collected",
+      "createdAt": "2026-10-15T18:10:00.000Z",
+      "totalAmount": 150,
+      "items": [
+        {
+          "id": "menu-5",
+          "name": "Paneer Butter Masala Thali",
+          "price": 120,
+          "quantity": 1,
+          "subtotal": 120
+        },
+        {
+          "id": "menu-11",
+          "name": "Fresh Sweet Lime Soda",
+          "price": 30,
+          "quantity": 1,
+          "subtotal": 30
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Placed",
+          "time": "2026-10-15T18:10:00.000Z"
+        },
+        {
+          "status": "Accepted",
+          "time": "2026-10-15T18:12:00.000Z"
+        },
+        {
+          "status": "Preparing",
+          "time": "2026-10-15T18:15:00.000Z"
+        },
+        {
+          "status": "Ready for Pickup",
+          "time": "2026-10-15T18:25:00.000Z"
+        },
+        {
+          "status": "Collected",
+          "time": "2026-10-15T18:30:00.000Z"
+        }
+      ]
+    }
+  ],
+  "feedback": [
+    {
+      "id": "fb-1792071857767",
+      "orderToken": "SC-1004",
+      "studentName": "Yash Rane",
+      "rating": 5,
+      "comment": "Lightning fast pickup! Dosa was super crispy and cold coffee was amazing.",
+      "createdAt": "2026-10-15T13:44:17.767Z"
+    },
+    {
+      "id": "fb-1",
+      "orderToken": "SC-1000",
+      "studentName": "Sneha Rao",
+      "rating": 5,
+      "comment": "The Paneer Thali was piping hot and delicious! Quick pickup within 15 minutes.",
+      "createdAt": "2026-10-15T18:35:00.000Z"
+    },
+    {
+      "id": "fb-2",
+      "orderToken": "SC-0998",
+      "studentName": "Amit Kulkarni",
+      "rating": 5,
+      "comment": "Cold Coffee is top notch! Pre-ordering saved me 20 mins of standing in queue during recess.",
+      "createdAt": "2026-10-15T17:50:00.000Z"
+    },
+    {
+      "id": "fb-3",
+      "orderToken": "SC-0995",
+      "studentName": "Meera Joshi",
+      "rating": 4,
+      "comment": "Masala Dosa was crisp and sambar tasted authentic. Will order again tomorrow.",
+      "createdAt": "2026-10-15T16:20:00.000Z"
+    }
+  ],
+  "nextOrderNumber": 1005
+}
