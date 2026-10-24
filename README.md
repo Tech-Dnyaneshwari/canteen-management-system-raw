@@ -3,7 +3,7 @@
 
 ---
 
-## 🏛️ Project Architecture (Based on Slide 10)
+## 🏛️ Project Architecture
 
 ```
                        ┌──────────────┐
